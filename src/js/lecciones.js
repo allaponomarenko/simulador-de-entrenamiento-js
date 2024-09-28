@@ -10,13 +10,30 @@
  *  -trim
  */
 
+// * -slice _________________________________________
 
-const userName = "Alice Franko";
+//const userName = "Alice Franko";
 
-console.log(userName.length); //12
+//console.log(userName.length); //12
 
-const str = userName.slice(1, 4);  
-console.log(str); //lic
+//const str = userName.slice(1, 4);  
+//console.log(str); //lic
+
+
+
+
+// * -toLowerCase() / toUpperCase() ____________________
+
+const mail = 'AllaDeyneka03@gmail.com';
+
+const result = mail.toLowerCase();
+
+console.log(result);
+
+
+
+
+
 
 
 
@@ -31,3 +48,10 @@ console.log(str); //lic
 
 
    
+
+
+
+// ! Це важливий коментар
+// * Це позитивний коментар
+// ? Це питання
+// TODO: Завдання на потім
